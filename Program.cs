@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TheGobblerGang
 {
@@ -9,25 +10,27 @@ namespace TheGobblerGang
             Console.WriteLine("Plan your heist!");
             Console.WriteLine("----------------");
             MemberPrompt();
-
+            while (MemberPrompt() == true)
+            {
+                MemberPrompt();
+            }
 
         }
 
-        static void MemberPrompt()
+        static bool MemberPrompt()
         {
-
-            Console.WriteLine("Enter a team member name> ");
+            Console.Write("\nMember name> ");
             string Name = Console.ReadLine();
+            List<TeamMember> Team = new List<TeamMember>();
             if (Name == "")
             {
-                return;
+                return false;
             }
             else
             {
-
-                Console.WriteLine("Enter a skill level> ");
+                Console.Write("Skill level> ");
                 int SkillLevel = Int32.Parse(Console.ReadLine());
-                Console.WriteLine("Enter a Courage Factor> ");
+                Console.Write("Courage Factor> ");
                 float Courage = float.Parse(Console.ReadLine());
 
                 TeamMember NewMember = new TeamMember()
@@ -36,12 +39,10 @@ namespace TheGobblerGang
                     Skill = SkillLevel,
                     Courage = Courage
                 };
-                Console.WriteLine("----------------------");
-                Console.WriteLine(NewMember.TeamMemberInfo);
-                MemberPrompt();
-                Console.WriteLine("member total: ", NewMember.TotalMemberNumber)
+                Team.Add(NewMember);
+                Console.WriteLine("\n----------------------");
+                return true;
             }
-
         }
     }
 }

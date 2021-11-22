@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace TheGobblerGang
 {
@@ -9,20 +10,23 @@ namespace TheGobblerGang
 
         public TeamMember()
         {
-            TotalMemberNumber = _memberIncrementer++;
+            _memberIncrementer++;
         }
+
         public string Name { get; set; }
         public int Skill { get; set; }
         public float Courage { get; set; }
-        public int TotalMemberNumber { get; set; }
-
+        public int TotalMemberNumber { get { return _memberIncrementer; } }
         public string TeamMemberInfo
         {
             get
             {
-                return $"Name: {Name}\nSkill Level: {Skill}\nCourage Factor: {Courage}";
+                return $"\nName: {Name}\nSkill Level: {Skill}\nCourage Factor: {Courage}";
             }
         }
+
+
+
     }
 
 
