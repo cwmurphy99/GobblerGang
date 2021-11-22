@@ -1,0 +1,16 @@
+C:\Users\eman_\workspace\csharp\TheGobblerGang\bin\Debug\net5.0\TheGobblerGang.exe
+C:\Users\eman_\workspace\csharp\TheGobblerGang\bin\Debug\net5.0\TheGobblerGang.deps.json
+C:\Users\eman_\workspace\csharp\TheGobblerGang\bin\Debug\net5.0\TheGobblerGang.runtimeconfig.json
+C:\Users\eman_\workspace\csharp\TheGobblerGang\bin\Debug\net5.0\TheGobblerGang.runtimeconfig.dev.json
+C:\Users\eman_\workspace\csharp\TheGobblerGang\bin\Debug\net5.0\TheGobblerGang.dll
+C:\Users\eman_\workspace\csharp\TheGobblerGang\bin\Debug\net5.0\ref\TheGobblerGang.dll
+C:\Users\eman_\workspace\csharp\TheGobblerGang\bin\Debug\net5.0\TheGobblerGang.pdb
+C:\Users\eman_\workspace\csharp\TheGobblerGang\obj\Debug\net5.0\TheGobblerGang.csproj.AssemblyReference.cache
+C:\Users\eman_\workspace\csharp\TheGobblerGang\obj\Debug\net5.0\TheGobblerGang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eman_\workspace\csharp\TheGobblerGang\obj\Debug\net5.0\TheGobblerGang.AssemblyInfoInputs.cache
+C:\Users\eman_\workspace\csharp\TheGobblerGang\obj\Debug\net5.0\TheGobblerGang.AssemblyInfo.cs
+C:\Users\eman_\workspace\csharp\TheGobblerGang\obj\Debug\net5.0\TheGobblerGang.csproj.CoreCompileInputs.cache
+C:\Users\eman_\workspace\csharp\TheGobblerGang\obj\Debug\net5.0\TheGobblerGang.dll
+C:\Users\eman_\workspace\csharp\TheGobblerGang\obj\Debug\net5.0\ref\TheGobblerGang.dll
+C:\Users\eman_\workspace\csharp\TheGobblerGang\obj\Debug\net5.0\TheGobblerGang.pdb
+C:\Users\eman_\workspace\csharp\TheGobblerGang\obj\Debug\net5.0\TheGobblerGang.genruntimeconfig.cache
