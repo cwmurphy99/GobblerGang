@@ -5,7 +5,7 @@ namespace TheGobblerGang
     class Program
     {
         public static List<TeamMember> Team = new List<TeamMember>();
-        public static int luckValue = new Random().Next(-10, 10);
+        public static int luckValue = new Random().Next(-10, 11);
         public static int bankDifficulty = 100 + luckValue;
         public static int totalSkill = 0;
         static void Main(string[] args)
